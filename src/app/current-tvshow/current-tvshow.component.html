@@ -1,0 +1,14 @@
+<div>
+  <div>
+    <span>{{current.showname}},{{current.language}}</span>
+    </div>
+    <div>
+      <span>{{current.rating | number:'1.0-0'}}</span>
+    </div>
+    <div>
+      {{current.category}}
+    </div>
+    <div>
+      <img [src]='current.image' />
+    </div>
+</div>
