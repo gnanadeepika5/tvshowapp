@@ -5,6 +5,5 @@ export interface ICurrentTvShow {
   rating:number,
   image:string,
   summary:string,
-  category:string
 
 }
